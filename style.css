@@ -1,0 +1,349 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin:0;
+    font-size: 14px;
+    font-weight: 400 700;
+    width: 1440px;
+}
+.logo-top{
+  margin:30px;
+  width: 120px;
+  float: left;
+  padding-left: 0;
+  margin-left: 0;
+}
+.site-container{
+  background-color: hsl(217, 28%, 15%);
+  margin: 0 auto;
+  color: azure;
+  width: 1440px;
+}
+  header{
+      font-family: Raleway, sans-serif;
+      background-size: 100%;
+      color: hsl(0, 0%, 100%);
+      width: 100%;
+      height: 100%;
+  }
+  .top{
+  display: flex;
+    padding: 20px 100px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar{
+      display: inline;
+      text-decoration: none;
+      margin-right: 50px;
+      letter-spacing: .1rem;
+      font-family: 'Raleway' ,sans-serif;
+    }
+  ul{
+    list-style-type: none;
+  }
+  h1{
+    font-family: Raleway, sans-serif;
+  }
+  h2{
+    font-family: Raleway, sans-serif;
+    text-align: center;
+  }
+  h3{
+    font-family: Raleway, sans-serif;
+  }
+  button{
+    font-family: Raleway, sans-serif;
+  }
+  a{
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  }
+  a:hover{
+    color: hsl(176, 68%, 64%);
+  }
+  .header-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px 0 280px 0;
+  }
+
+  .header-info-container{
+    max-width: 500px;
+    text-align: center;
+    z-index: 2;
+  }
+.img-header{
+  z-index: 1;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.background{
+  display: flex;
+  position: absolute;
+  bottom: 0 ;
+  z-index: -1;
+  left: 0%;
+  padding-top: 50px;
+}
+.background img{
+width: 1440px;
+}
+.header-text h1{
+  margin-top: 40px;
+  line-height: 1.5rem;
+}
+.header-text p{
+  padding: 0 45px;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+}
+.header-button{
+  background-color:hsl(198, 60%, 50%);
+  padding: 10px 60px;
+  border-radius: 20px;
+  border: none;
+  color: azure;
+}
+.main-info{
+  background-color: hsl(218, 28%, 13%);
+}
+.icons-info{
+  margin-top: 0;
+  display: flex;
+  position: relative;
+  list-style: none;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color:hsl(218, 28%, 13%); ;
+  z-index: 3;
+}
+.icon{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+  margin-left: 100px;
+}
+.icon p{
+  max-width: 60% ;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.final-info{
+  background-color: hsl(218,28%,13%);
+  margin-top: -15px;
+  display: flex;
+  padding: 40px 180px;
+  justify-content: space-between;
+}
+.grid-img img{
+  width: 100%;
+}
+.final-info-content{
+  width: 40%;
+  padding: 100px 0 0 40px;
+  text-align: left;
+}
+.final-info-content h1 {
+  max-width: 300px;
+}
+.final-info-content p{
+  line-height: 1.5rem;
+}
+.how-it-works {
+  color:hsl(176, 68%, 64%);
+
+}
+.how-it-works a:hover{
+  cursor: pointer;
+  color: #FFF ;
+  border-color:#FFF ;
+}
+.how-it-works img{
+  width: 12px;
+  margin-top:12px ;
+  z-index: 1;
+}
+.fylo-works{
+  border-bottom: 1px solid hsl(176,68%,64%);
+  width: 35%;
+}
+.reviews{
+  margin-top: -15px;
+  background-color: hsl(218,28%,13%);
+}
+.cards{
+  position: relative;
+  list-style: none;
+  padding: 60px 100px;
+  display: flex;
+  height: 100%;
+  width: 90%;
+}
+.quotes{
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  left: 90px;
+}
+.review{
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: hsl(219, 30%, 18%);
+width: 27%;
+padding: 30px 10px 20px 30px;
+border-radius: 5px;
+box-shadow: 10px 10px 10px hsl(218, 28%, 13%);
+z-index: 2;
+text-align: left;
+margin-left: 20px;
+}
+.container{
+  line-height: 1.5rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.container1{
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+.container1 img{
+  width: 15%;
+  border-radius: 100%;
+}
+.container1 h5{
+  margin-top: 10px;
+  padding-left: 10px;
+  font-size: 1rem;
+}
+.container1 p{
+  padding-left: 10px;
+  margin-top: -25px;
+  font-size: .8rem;
+}
+.bottom-container{
+  position: relative;
+  margin-top: -20px;
+  min-height: 200px;
+  background-color: hsl(218,28%,13%);
+}
+
+.early-access{
+  position: absolute;
+  width: 60%;
+  padding: 30px 0;
+  text-align: center;
+  background-color: hsl(217, 28%, 15%);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px hsl(218,28%,13%);
+  left:20%;
+  bottom:-120px;
+}
+.early-access p{
+  max-width: 620px;
+  margin:0 auto;
+  padding-bottom: 20px;
+  line-height: 1.5rem;
+}
+.submit-email{
+  display: flex;
+  justify-content: center;
+}
+.submit-email input{
+  width: 50%;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+.submit-email button{
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: hsl(198,60%,50%);
+  color: #FFF;
+}
+.end{
+background-color:  hsl(216, 53%, 9%);
+margin: 0;
+padding: 100px;
+}
+.footer-logo{
+  margin-top: 50px;
+  margin-left: 50px;
+  float: left;
+  position: relative;
+}
+.footer-logo img{
+  width: 130px;
+}
+.footer-info{
+  display: flex;
+  margin-top: 120px;
+  margin-left: 30px;
+  padding:10px;
+  list-style: none;
+  position: relative;
+  text-align: left;
+}
+.location{
+  display: flex;
+   width:30%;
+}
+.location p{
+ width:75%;
+}
+.location img{
+  width: 15px;
+  height: 20px;
+  margin-right:10px;
+}
+.contact{
+  display: grid;
+  margin-left: 0;
+  width: 20%;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+.about{
+display: flex;
+ width:30%;
+}
+
+.about-us li{
+ padding: 0  0 10px 10px ;
+}
+
+.contact li{
+padding: 0 0px 10px 0;
+}
+.social-media ul{
+display: flex;
+width: 20%;
+}
+.btn{
+  display: inline;
+  margin-right: 10px;
+  background-color: transparent;
+  color: hsl(0, 0%, 100%);
+  border-radius: 100%;
+  border-color: hsl(0, 0%, 100%);
+}
+.attribution_text{
+  font-size: 0.75rem;
+  padding: 20px;
+  font-family: Merriweather,serif;
+}
